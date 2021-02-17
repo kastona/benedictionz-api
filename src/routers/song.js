@@ -28,9 +28,9 @@ const upload = multer({
         fileSize: 80000000
     },
     fileFilter(req, file, cb) {
-        if (!file.originalname.match(/\.(mp3|mp4|jpeg|jpg|png)/)) {
-            cb(new Error('Please Upload a valid file'))
-        }
+        // if (!file.originalname.match(/\.(mp3|mp4|jpeg|jpg|png)/)) {
+        //     cb(new Error('Please Upload a valid file'))
+        // }
 
         cb(undefined, true)
     },
