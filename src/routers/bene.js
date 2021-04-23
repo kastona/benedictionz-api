@@ -9,6 +9,7 @@ const router = express.Router()
 router.post('/details', auth, async (req, res) => {
 
     try {
+        
         if(req.user.admin !== true) {
             return res.status(401).send()
         }
