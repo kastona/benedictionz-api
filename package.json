@@ -36,6 +36,10 @@
     "sharp": "^0.24.1",
     "validator": "^12.2.0"
   },
+  
+  "engines": {
+    "node": "v14.17.3"
+  },
   "devDependencies": {
     "nodemon": "^2.0.2"
   }
